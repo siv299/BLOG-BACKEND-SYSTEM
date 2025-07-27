@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini Blog</title>
+</head>
+<body>
+  <h1>Write a Blog Post</h1>
+  <form action="/cgi-bin/post_blog.cgi" method="post">
+    <label>Title:</label><br>
+    <input type="text" name="title"><br>
+    <label>Content:</label><br>
+    <textarea name="content" rows="5" cols="40"></textarea><br>
+    <input type="submit" value="Post">
+  </form>
+
+  <h2>Previous Posts</h2>
+  <pre>
+  <!-- Display posts -->
+  <!-- Server-side logic required to read and show from blog_posts.txt -->
+  </pre>
+</body>
+</html>
